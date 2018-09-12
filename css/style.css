@@ -1,0 +1,225 @@
+* {
+  font-family: ubuntu;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* color: white; */
+  /* background-color: #090d13; */
+  color: #ccc;
+}
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #0e1218;
+  padding-left: 30px;
+}
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#ninja {
+  float: left;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* #about{
+      padding-right: 50px
+  } */
+#signin {
+  padding-left: 0;
+}
+
+#ninja {
+  width: 20px;
+  height: 20px;
+}
+.topnav-left #ninja,
+#signin {
+  
+  margin: 0;
+  padding-right: 20px;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+#banner {
+  background-image: url("../img/banner.png");
+  position: relative;
+}
+#banner h1 {
+  font-size: 70px;
+  font-weight: normal;
+  padding-top: 50px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+#banner h3 {
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 3px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.wrapper {
+  width: 100%;
+  background-color: #090d13;
+  text-align: center;
+}
+/* courses area*/
+.container {
+  text-align: center;
+  height: auto;
+  overflow: hidden;
+  width: 94%;
+  margin: auto;
+
+}
+#courses {
+  width: 100%;
+  background-color: #090d13;
+  padding: 60px 0;
+  height: auto;
+}
+#courses .course {
+  float: left;
+  width: 21.5%;
+  text-align: center;
+  padding: 10px 10px 40px 10px;
+  margin: 10px; 
+  border-radius: 4px;
+  background-color: #181c22;
+
+}
+.course img {
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  height: 100%;
+}
+.container h3{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.container h4, h3{
+    padding: 13px 0;
+    font-weight: normal;
+    font-size: 20px;
+}
+#btn-sbscrb{
+    background-color: #276a1e;
+    padding: 10px 30px;
+    font-size: 22px;
+    border-radius: 4px;
+    margin-top: 23px;
+    clear: both;
+}
+
+/*cards area */
+.cards{
+    background-color: #0e1218;
+    height: 100%;
+    padding-top: 100px;
+
+}
+.card{
+    float: left;
+    width: 26.5%;
+    text-align: center;
+    padding: 30px;;
+    margin: 10px; 
+    border-radius: 4px;
+    background-color: #090d13;
+    height: auto;
+    
+}
+.card p{
+    color: #777;
+    letter-spacing: 2px;
+    line-height: 20px;
+    margin: 15px 0;
+    text-align: left;
+ 
+}
+.card .btn-crd{
+    padding: 15px 40px;
+    border-radius: 4px;
+}
+.card #visit{
+    background-color: #88181b;
+    margin-top: 38px;
+}
+.card #donate{
+    background-color: #276a1e;
+}
+.card #fork{
+    background-color: #152744;
+    margin-top: 50px;
+}
+#crd-img{
+        clear: both;
+        display: block;
+        margin: 0 auto;
+        padding-top: 150px;
+        padding-bottom: 0;
+}
+/* subscribe area */
+#subscribe{
+    background-color: #16191f;
+    text-align: center;
+    padding: 20px;
+    
+}
+#subscribe h4{
+    font-weight: normal;
+    color: #aaa;
+}
+#subscribe h5{
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+#youtube{
+    background-color: #b31217;
+    border-radius: 3px 0 3px 3px;
+    padding: 5px;
+    margin: 0;
+}
+#subs{
+    background-color: #fafafa;
+    border-radius: 3px 3px 3px 0;
+    border-top-left-radius: 0;
+    color: rgb(156, 156, 156);
+    padding: 5px;
+    margin-left: -3px;
+}
+#ftr{
+    background-color: #181c22;
+    padding: 50px 0;
+}
+#footer-left{
+    float: left;
+    text-align: left;
+    width: 90%;
+}
+
+#copy{
+    margin-top: 20px;
+}
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+}
