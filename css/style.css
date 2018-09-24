@@ -7,6 +7,9 @@
   /* background-color: #090d13; */
   color: #ccc;
 }
+html{
+    box-sizing: border-box;
+}
 .topnav {
   position: relative;
   overflow: hidden;
@@ -60,6 +63,7 @@
 #banner {
   background-image: url("../img/banner.png");
   position: relative;
+  height: 54vh;
 }
 #banner h1 {
   font-size: 70px;
@@ -81,23 +85,23 @@
   text-align: center;
 }
 /* courses area*/
+#courses{
+    background-color: #090d13;
+    text-align: center;
+}
+#courses h3{
+    text-align: center;
+    padding: 50px 0;
+    font-size: 30px;
+}
 .container {
   text-align: center;
-  height: auto;
-  overflow: hidden;
   width: 94%;
   margin: auto;
-
-}
-#courses {
-  width: 100%;
-  background-color: #090d13;
-  padding: 60px 0;
-  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 #courses .course {
-  float: left;
-  width: 21.5%;
   text-align: center;
   padding: 10px 10px 40px 10px;
   margin: 10px; 
@@ -125,20 +129,17 @@
     padding: 10px 30px;
     font-size: 22px;
     border-radius: 4px;
-    margin-top: 23px;
-    clear: both;
+    margin: 23px 0 50px 0;
 }
 
 /*cards area */
 .cards{
     background-color: #0e1218;
     height: 100%;
-    padding-top: 100px;
+    padding-top: 80px;
 
 }
 .card{
-    float: left;
-    width: 26.5%;
     text-align: center;
     padding: 30px;;
     margin: 10px; 
@@ -221,5 +222,42 @@
     margin-top: 20px;
 }
 /* Responsive navigation menu (for mobile devices) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
+    .topnav-right{
+        visibility: hidden;
+    }
+    .topnav-left{
+        visibility: hidden;
+    }
+    #banner h1{
+        font-size: 60px;
+        font-weight: normal;
+        padding-top: 50px;
+    }
+    #banner h3{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 439px) {
+    .topnav-right{
+        visibility: hidden;
+    }
+    .topnav-left{
+        visibility: hidden;
+    }
+    #banner h1{
+        font-size: 40px;
+        font-weight: normal;
+        padding-top: 50px;
+
+    }
+    .topnav {
+        padding-left: 0px;
+      }
+      .topnav a {
+        padding: 0;
+      }
+      #banner h3{
+        font-size: 15px;
+    }
 }
